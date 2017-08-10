@@ -1,0 +1,39 @@
+*{ margin:0; padding:0; word-wrap:break-word}
+body{font-size:12px; color: #555555; background:#fff; font-family: "Microsoft YaHei",sans-serif; overflow-x:hidden;}
+img{ border: none; display:block;}/*避免png出现边框*/
+a,span{ text-decoration:none; color:#333; transition:all .3s ease-out; -moz-transition:all .3s ease-out; -webkit-transition:all .3s ease-out; -o-transition:all .3s ease-out;}
+li, ul{ list-style:none;}
+.wp{ width:1200px; margin:auto;}
+/*清除浮动*/
+.clr{ clear:both;}
+.clr:before,#clear:after{display:table; content:""}
+.clr:after{clear:both}
+.clr{zoom:1}
+.fl{ float: left;}
+.fr{ float: right;}
+h3{ font-weight: normal;}
+
+
+.box{ width: 100%; height: 100%;}
+.music{ margin: 180px auto; height: 556px; width: 600px; background: #fff; box-shadow: 0 1px 10px #b8b8b8;}
+.pic{ width: 600px; height: 386px; background: url("../images/img1.jpg") no-repeat center;}
+.content{ text-align: center;}
+.content h3{ font-size: 16px; line-height: 50px;}
+
+/*btn*/
+.btn{ margin-top: 12px; height: 60px; position: relative;}
+.m-icon{ display: inline-block; cursor: pointer;}
+.btn1, .btn2{ width: 21px; height: 29px;}
+.btn3{ width: 37px; height: 42px; margin: 0 80px; position: relative; top: 7px;}
+.btn1{ background: url("../images/btn1.png") no-repeat center;}
+.btn2{ background: url("../images/btn2.png") no-repeat center;}
+.btn3{ background: url("../images/btn4.png") no-repeat center;}
+
+/*basebar*/
+.basebar-box{ width: 100%; height: 25px; position: relative;}
+.basebar-box>span{ position: absolute; color: #aeaeae;}
+.time1{ left: 13px; top: -7px;}
+.time2{ right: 13px; top: -7px;}
+
+.basebar{ margin: 20px auto; display: block; width: 488px; height: 3px; border: none; background: #d2d2d2;}
+.basebar .progressbar{ display: block; border: none; width: 0%; height: 3px; background: #e60021;}
